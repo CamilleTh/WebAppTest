@@ -7,7 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
+<h1> Test integration et deploiement continu</h1>
 	<p>Page générée depuis une JSP</p>
+	
 	<% 
 	String auteur = request.getParameter("auteur");
 	String attr = (String)request.getAttribute("test");
