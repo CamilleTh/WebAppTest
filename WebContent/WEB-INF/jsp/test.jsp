@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1> Test integration et deploiement continu</h1>
+<h1> Test intégration et déploiement continu</h1>
 	<p>Page générée depuis une JSP</p>
 	
 	<% 
@@ -15,5 +15,6 @@
 	String attr = (String)request.getAttribute("test");
 	out.println(attr+" by "+auteur);
 	 %>
+	 
 </body>
 </html>
