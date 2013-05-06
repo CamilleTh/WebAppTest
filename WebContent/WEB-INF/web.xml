@@ -16,13 +16,13 @@
     </servlet-mapping>
     
     <servlet>
-    <servlet-name>GestionTestJDBC</servlet-name>
-    <servlet-class>lu.intech.bdd.GestionTestJDBC</servlet-class>
+   		<servlet-name>GestionTestJDBC</servlet-name>
+    	<servlet-class>lu.intech.bdd.GestionTestJDBC</servlet-class>
 	</servlet>
  
 	<servlet-mapping>
-    <servlet-name>GestionTestJDBC</servlet-name>
-    <url-pattern>/testjdbc</url-pattern>
+    	<servlet-name>GestionTestJDBC</servlet-name>
+    	<url-pattern>/testjdbc</url-pattern>
 	</servlet-mapping>
 	
 </web-app>
